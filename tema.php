@@ -46,11 +46,16 @@
   }
 }
 
+if (isset($_GET['submit'])) {
+  $result1 = isset($_GET['num1'])?$_GET['num1']:0;
+  $result2 = isset($_GET['num2'])?$_GET['num2']:0;
+ 
 $adunare = $result1 + $result2;
 
 if ($adunare < 0) 
-echo " Atentie, rezultatul nu poate fi negativ!"  
-
+echo " Atentie, rezultatul nu poate fi negativ!"; 
+ 
+}
   ?>
   
 </body>

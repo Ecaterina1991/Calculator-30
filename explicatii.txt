@@ -22,4 +22,6 @@ Daca este mai mic decat zero cand se va afisa suma
 
 Sa fie un mesaj de warning
 
-atribui valorile sumei result1 + result2 unei alte variabile numite $adunare; folosesc instructiunea if ca sa verific daca variabila $adunare are o valoare negativa, caz in care ii anexez un warning sub forma unui string afisat langa rezultat: "Atentie, rezultatul nu poate fi negativ!".
+verific ca valorile variabilelor num1 si num2 sa fi fost setate si sa nu fie nule cu operatorul tertiar
+
+atribui valorile sumei $result1 + $result2 unei alte variabile numite $adunare; folosesc instructiunea if ca sa verific daca variabila $adunare are o valoare negativa, caz in care ii anexez un warning sub forma unui string afisat langa rezultat: "Atentie, rezultatul nu poate fi negativ!".
